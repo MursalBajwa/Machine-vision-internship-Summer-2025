@@ -15,12 +15,6 @@ This repository serves as a portfolio of my learning outcomes, including:
 
 The internship emphasized practical ML engineering: data preprocessing, model training, evaluation, and deployment insights. Key themes include ethical AI, computational efficiency, and bridging vision with language.
 
-**Repository Structure**:
-
-text
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   internship-2025/  ├── notebooks/  │   ├── 1.Batch_gradient_descent.ipynb          # Basic optimization  │   ├── 2.internship_neural_network_Practice_of_pipeline.ipynb  # NN pipeline practice  │   ├── 3.Internship_Convolution_Neural_Network_exercise1.ipynb # CNN on MNIST  │   ├── 4.Internship_Convolution_Neural_Network_modified_exercise2.ipynb # CNN on CIFAR-10  │   ├── 5.VGG16_Internship_Convolution_Neural_Network_modified.ipynb # VGG16 on CIFAR-10  │   ├── 6.Sentiment_Analysis_by_using_lstm.ipynb # LSTM for text sentiment  │   ├── 7.Imdb_review_predictor.ipynb            # RNN predictor on IMDB  │   ├── 8.Transformer_from_the_scratch.ipynb     # Custom Transformer implementation  │   └── Project_image-to-caption-efficientnet-b2-version-beam-1.ipynb # Capstone: Image Captioning  ├── reports/  │   └── Machine_Vision_report.pdf                #                                       # Sample datasets (e.g., MNIST, CIFAR-10 subsets)  ├── requirements.txt                             # Dependencies  └── README.md                                    # This file   `
-
 Quick Start
 -----------
 
@@ -171,7 +165,7 @@ Each notebook builds progressively, aligning with the internship's curriculum fr
     
 *   **Key Concepts**: CNN-RNN fusion (EfficientNet-B2 encoder + LSTM decoder), beam search decoding, BLEU score evaluation.
     
-*   **Dataset**: MS COCO (subsets for train/val/test); handles image preprocessing (resize, normalize).
+*   **Dataset**: flikr8k (subsets for train/val/test); handles image preprocessing (resize, normalize).
     
 *   **Outcomes**: Generates coherent captions (e.g., "A dog chasing a frisbee in the grass"); sample grid visualizations with predicted vs. ground-truth captions. Achieves BLEU-4 ~0.25.
     
