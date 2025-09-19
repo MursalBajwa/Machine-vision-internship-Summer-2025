@@ -161,9 +161,9 @@ Each notebook builds progressively, aligning with the internship's curriculum fr
 
 ### 9\. Capstone: Image-to-Caption with EfficientNet-B2 & Beam Search (Project\_image-to-caption-efficientnet-b2-version-beam-1.ipynb)
 
-*   **Focus**: Multimodal project generating descriptive captions for images.
+*   **Focus**: project generating descriptive captions for images.
     
-*   **Key Concepts**: CNN-RNN fusion (EfficientNet-B2 encoder + LSTM decoder), beam search decoding, BLEU score evaluation.
+*   **Key Concepts**: CNN-RNN fusion (EfficientNet-B2 encoder + Transformer decoder), beam search decoding, BLEU score evaluation.
     
 *   **Dataset**: flikr8k (subsets for train/val/test); handles image preprocessing (resize, normalize).
     
